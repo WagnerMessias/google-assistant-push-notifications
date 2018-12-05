@@ -1,0 +1,43 @@
+{
+  "id": "a3b1f09c-c7cd-498b-bcf8-3caeb89e0081",
+  "name": "finish-push-setup",
+  "auto": true,
+  "contexts": [
+    "actions_capability_screen_output"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "finish.push.setup",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543604791,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_PERMISSION"
+    }
+  ],
+  "userSays": [],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

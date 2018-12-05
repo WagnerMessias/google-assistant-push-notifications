@@ -1,0 +1,52 @@
+{
+  "id": "031293cc-257d-4a69-833f-e1d95f19672a",
+  "name": "setup-push",
+  "auto": true,
+  "contexts": [
+    "actions_capability_screen_output"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "setup.push",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542985547,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "074af442-2415-4d5c-b482-bacad3c7e6a1",
+      "data": [
+        {
+          "text": "Receber Resultados"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1542985547,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}

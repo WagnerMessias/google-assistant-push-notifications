@@ -1,0 +1,73 @@
+{
+  "id": "a1d83811-5718-456d-8273-71f01a3892cb",
+  "name": "result-mega-sena",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543063811,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "6f7979ff-4280-4d63-bd4f-980690fa1148",
+      "data": [
+        {
+          "text": "último resultado"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1542988668,
+      "isAuto": false
+    },
+    {
+      "id": "f2462242-4a3c-44fa-af28-aa6d7ba9f090",
+      "data": [
+        {
+          "text": "resultado mega sena"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1542988310,
+      "isAuto": false
+    },
+    {
+      "id": "435c2eed-39d6-4333-902d-a40a72fe0502",
+      "data": [
+        {
+          "text": "Qual último resultado da mega sena"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1542988310,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
